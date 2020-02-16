@@ -6,3 +6,5 @@ their state.
 - Add tcp_challenge_ack_limit variable to bypass linux kernel tcp ack exploit
 
 ## 1.1.0
+
+- Add DOCKER tuner
