@@ -12,3 +12,5 @@ their state.
 ## 1.0.2
 
 - Use net instead since proc mount didn't worked for tcp tuning.
+
+## 1.0.1
