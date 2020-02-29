@@ -18,3 +18,5 @@ their state.
 - Force user to mount proc on container
 
 ## 1.0.0
+
+- Initial Release
