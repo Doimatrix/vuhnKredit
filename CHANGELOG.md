@@ -14,3 +14,5 @@ their state.
 - Use net instead since proc mount didn't worked for tcp tuning.
 
 ## 1.0.1
+
+- Force user to mount proc on container
