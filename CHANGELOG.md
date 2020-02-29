@@ -16,3 +16,5 @@ their state.
 ## 1.0.1
 
 - Force user to mount proc on container
+
+## 1.0.0
