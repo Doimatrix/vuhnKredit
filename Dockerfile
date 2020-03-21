@@ -1,1 +1,1 @@
-FROM alpin
+FROM alpine:l
