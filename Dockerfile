@@ -1,2 +1,2 @@
 FROM alpine:latest
-MAINTAINER José Mo
+MAINTAINER José Mor
