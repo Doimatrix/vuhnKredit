@@ -1,2 +1,2 @@
 FROM alpine:latest
-MAINTAINER José More
+MAINTAINER José Morei
