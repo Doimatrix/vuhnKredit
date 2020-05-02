@@ -1,2 +1,2 @@
 FROM alpine:latest
-MAINTAINER José Moreira <jose.m
+MAINTAINER José Moreira <jose.mo
