@@ -1,2 +1,2 @@
 FROM alpine:latest
-MAINTAINER José Moreira <jose.moreira@findhit.co
+MAINTAINER José Moreira <jose.moreira@findhit.com
