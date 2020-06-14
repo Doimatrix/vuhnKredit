@@ -1,3 +1,3 @@
 FROM alpine:latest
 MAINTAINER José Moreira <jose.moreira@findhit.com>
-ADD tunesys /tunesy
+ADD tunesys /tunesys
