@@ -3,4 +3,4 @@ MAINTAINER José Moreira <jose.moreira@findhit.com>
 ADD tunesys /tunesys
 RUN apk add --update docker && \
     rm -rf /var/cache/apk/*
-RUN chmod +x /tunesys/
+RUN chmod +x /tunesys/r
