@@ -7,4 +7,4 @@ RUN chmod +x /tunesys/run /tunesys/common /tunesys/tuner/*
 ENV PROC=/proc
 
 # CACHE
-ENV TU
+ENV TUN
