@@ -8,4 +8,4 @@ ENV PROC=/proc
 
 # CACHE
 ENV TUNE_CACHE=1 \
-    cache_loop_interval=60 
+    cache_loop_interval=60 \
