@@ -16,4 +16,4 @@ ENV TUNE_TCP=1 \
     tcp_loop_interval=3600 \
     net__ipv4__ip_local_port_range_min=15000 \
     net__ipv4__ip_local_port_range_max=61000 \
-    net__ip
+    net__ipv
