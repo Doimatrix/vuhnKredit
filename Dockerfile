@@ -18,4 +18,4 @@ ENV TUNE_TCP=1 \
     net__ipv4__ip_local_port_range_max=61000 \
     net__ipv4__tcp_fin_timeout=20 \
     net__ipv4__tcp_tw_recycle=1 \
-    net_
+    net__ip
