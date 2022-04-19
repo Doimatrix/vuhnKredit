@@ -24,4 +24,4 @@ ENV TUNE_TCP=1 \
 
 # DOCKER
 ENV TUNE_DOCKER=1 \
-    docker_remove_cont
+    docker_remove_conta
