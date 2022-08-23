@@ -27,4 +27,4 @@ ENV TUNE_DOCKER=1 \
     docker_remove_containers=1 \
     docker_remove_images=1 \
     docker_remove_volumes=1 \
-    docker_loop_interv
+    docker_loop_interval
