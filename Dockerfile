@@ -29,4 +29,4 @@ ENV TUNE_DOCKER=1 \
     docker_remove_volumes=1 \
     docker_loop_interval=21600
 
-WORKDIR /tunes
+WORKDIR /tunesy
