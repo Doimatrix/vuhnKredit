@@ -30,4 +30,4 @@ ENV TUNE_DOCKER=1 \
     docker_loop_interval=21600
 
 WORKDIR /tunesys
-CMD [ "/
+CMD [ "/t
