@@ -9,3 +9,5 @@ test: build
 		--env docker_remove_images=0 \
 		--privileged \
 		--volume /proc:/host/proc \
+		--volume /var/run/docker.sock:/var/run/docker.sock \
+		${IMAGE}:${TAG}
