@@ -11,3 +11,5 @@ test: build
 		--volume /proc:/host/proc \
 		--volume /var/run/docker.sock:/var/run/docker.sock \
 		${IMAGE}:${TAG}
+
+build:
