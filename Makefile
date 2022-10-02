@@ -13,3 +13,4 @@ test: build
 		${IMAGE}:${TAG}
 
 build:
+	@docker build -t ${IMAGE}:${TAG} .
