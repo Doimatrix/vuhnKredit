@@ -17,3 +17,5 @@ build:
 
 push: build
 	@docker push ${IMAGE}:${TAG}
+
+tag: build push
