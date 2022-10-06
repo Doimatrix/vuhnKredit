@@ -6,3 +6,5 @@
 #### Sceptic? See it with your own eyes: 
 
 ![rancher-host-stats-autotune-launch](https://cloud.githubusercontent.com/assets/3604053/14365847/b66d2afc-fd07-11e5-9100-ec899b6814bf.png)
+
+```yaml
