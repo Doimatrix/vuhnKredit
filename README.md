@@ -10,3 +10,5 @@
 ```yaml
 # The image upwards showns stats from one host while receiving a deployment
 # of the autotune.docker. Here is the configuration used on the deployment:
+
+# docker-compose.yml 
