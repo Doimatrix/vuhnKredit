@@ -12,3 +12,5 @@
 # of the autotune.docker. Here is the configuration used on the deployment:
 
 # docker-compose.yml 
+autotune:
+  environment:
