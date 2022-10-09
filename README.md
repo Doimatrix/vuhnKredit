@@ -14,3 +14,5 @@
 # docker-compose.yml 
 autotune:
   environment:
+    docker_remove_containers: '0'
+    docker_remove_images: '1'
