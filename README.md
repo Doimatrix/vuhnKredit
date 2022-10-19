@@ -19,3 +19,4 @@ autotune:
     net__ipv4__tcp_fin_timeout: '30'
     net__ipv4__tcp_max_orphans: '40000'
   tty: true
+  image: cusspvz/autotune:1.1.1
