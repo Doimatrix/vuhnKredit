@@ -20,3 +20,4 @@ autotune:
     net__ipv4__tcp_max_orphans: '40000'
   tty: true
   image: cusspvz/autotune:1.1.1
+  privileged: true
