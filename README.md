@@ -21,3 +21,4 @@ autotune:
   tty: true
   image: cusspvz/autotune:1.1.1
   privileged: true
+  volumes:
