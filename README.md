@@ -22,3 +22,4 @@ autotune:
   image: cusspvz/autotune:1.1.1
   privileged: true
   volumes:
+  - /var/run/docker.sock:/var/run/docker.sock
