@@ -26,3 +26,7 @@ autotune:
   stdin_open: true
   net: host
 ```
+
+
+Most Linuxes available over there aren't tuned to be high performance network
+servers, thats why every tech company needs an Ops or Sysadmin guy.
