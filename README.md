@@ -38,3 +38,4 @@ machines!
 # What does it do?
 
 It has built-in configurable tuners that handles minor settings, such as:
+  * CACHE - drops kernel's cache
