@@ -34,3 +34,5 @@ servers, thats why every tech company needs an Ops or Sysadmin guy.
 Well, this docker image won't replace that role on your company, but will make
 Ops easier for those who work with **Containers** and lots, Lots or LOTS of
 machines!
+
+# What does it do?
