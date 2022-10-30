@@ -36,3 +36,5 @@ Ops easier for those who work with **Containers** and lots, Lots or LOTS of
 machines!
 
 # What does it do?
+
+It has built-in configurable tuners that handles minor settings, such as:
