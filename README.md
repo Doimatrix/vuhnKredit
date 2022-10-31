@@ -41,3 +41,4 @@ It has built-in configurable tuners that handles minor settings, such as:
   * CACHE - drops kernel's cache
     - Linux ate your RAM? This reduces linux fs cache footprint
     - This isn't One Shot, it will act every 60 secs (interval also configurable)
+  * TCP - sets up best tcp settings for high performance servers
