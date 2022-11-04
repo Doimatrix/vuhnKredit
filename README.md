@@ -44,3 +44,4 @@ It has built-in configurable tuners that handles minor settings, such as:
   * TCP - sets up best tcp settings for high performance servers
     - Replaces hand `sysctl ...` configurations
     - Tunes settings every hour
+    - This isn't One Shot, it will act every hour (interval also configurable)
