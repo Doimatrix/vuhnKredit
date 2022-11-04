@@ -45,3 +45,4 @@ It has built-in configurable tuners that handles minor settings, such as:
     - Replaces hand `sysctl ...` configurations
     - Tunes settings every hour
     - This isn't One Shot, it will act every hour (interval also configurable)
+  * Docker
