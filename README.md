@@ -46,3 +46,5 @@ It has built-in configurable tuners that handles minor settings, such as:
     - Tunes settings every hour
     - This isn't One Shot, it will act every hour (interval also configurable)
   * Docker
+    - Removes all images that are not being used. Option enable by default `docker_remove_images=1` in Dockerfile
+    - Removes all stoped containers. Option enable by default `docker_remove_containers=1` in Dockerfile.
