@@ -52,3 +52,6 @@ It has built-in configurable tuners that handles minor settings, such as:
 
 
 ## Deploying
+
+```bash
+docker run -d \
