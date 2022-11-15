@@ -55,3 +55,6 @@ It has built-in configurable tuners that handles minor settings, such as:
 
 ```bash
 docker run -d \
+    --privileged \ # to tune kernel settings
+    --net host \ # to tune host network
+    --volume /var/run/docker.sock:/var/run/docker.sock \
