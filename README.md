@@ -68,3 +68,5 @@ docker run -d \
 You can set the `DOCKER_API_VERSION` with the running API server and it should work fine.
 
 ## Motivation
+
+During our firsts cluster deployments we encountered various issues regarding
