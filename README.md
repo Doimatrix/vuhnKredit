@@ -60,3 +60,5 @@ docker run -d \
     --volume /var/run/docker.sock:/var/run/docker.sock \
     cusspvz/autotune
 ```
+
+## FAQ
