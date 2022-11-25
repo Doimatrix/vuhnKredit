@@ -62,3 +62,5 @@ docker run -d \
 ```
 
 ## FAQ
+
+### I'm getting an error stating the docker Cli and the API have different versions.
