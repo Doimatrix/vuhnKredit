@@ -70,3 +70,4 @@ You can set the `DOCKER_API_VERSION` with the running API server and it should w
 ## Motivation
 
 During our firsts cluster deployments we encountered various issues regarding
+providers (Azure and AWS) default Linux configurations.
