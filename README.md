@@ -64,3 +64,5 @@ docker run -d \
 ## FAQ
 
 ### I'm getting an error stating the docker Cli and the API have different versions.
+
+You can set the `DOCKER_API_VERSION` with the running API server and it should work fine.
