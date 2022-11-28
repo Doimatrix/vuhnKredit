@@ -74,3 +74,6 @@ providers (Azure and AWS) default Linux configurations.
 
 Since isn't handy to do those kind of jobs, I've decided to create something
 easy to manage over Environment Variables.
+
+
+## Plans for the future
