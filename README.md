@@ -85,3 +85,4 @@ It would be nice to have automation based on server's current state.
 
 ```bash
 make test
+```
