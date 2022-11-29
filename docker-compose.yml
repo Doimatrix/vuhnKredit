@@ -1,2 +1,4 @@
 
 tunesys:
+    build: .
+    privileged: true
