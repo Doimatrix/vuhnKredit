@@ -9,3 +9,4 @@ setp () {
     # Don't set anything if path doesn't exist
     [ -f $_PATH ] && {
         echo $2 > $_PATH
+        echo "Ok"
