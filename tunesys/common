@@ -3,3 +3,5 @@
 
 setp () {
     _PATH=$PROC/$1
+
+    echo -ne "Setting up $_PATH to $2 ..."
