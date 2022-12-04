@@ -10,3 +10,5 @@ setp () {
     [ -f $_PATH ] && {
         echo $2 > $_PATH
         echo "Ok"
+    } || {
+        echo "Failed"
