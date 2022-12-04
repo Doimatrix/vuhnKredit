@@ -2,3 +2,4 @@
 #!/bin/bash
 
 setp () {
+    _PATH=$PROC/$1
