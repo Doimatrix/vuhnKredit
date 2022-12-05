@@ -12,3 +12,4 @@ setp () {
         echo "Ok"
     } || {
         echo "Failed"
+    }
