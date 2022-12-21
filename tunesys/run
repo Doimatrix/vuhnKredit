@@ -12,3 +12,4 @@ echo 1 > $PROC/sys/vm/drop_caches >/dev/null 2>&1 || \
     throw 2 "Please re-run container with: --net=host"
 
 # Load tuners
+TUNERS_PIDS=""
