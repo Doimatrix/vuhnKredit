@@ -15,3 +15,5 @@ echo 1 > $PROC/sys/vm/drop_caches >/dev/null 2>&1 || \
 TUNERS_PIDS=""
 for FILE in $(ls tuner/); do
     if [ ! -z $(eval "echo \$TUNE_${FILE}") ]; then
+        echo -ne "Starting up $FILE tuner..."
+        /tunesys/tuner/$FILE &
