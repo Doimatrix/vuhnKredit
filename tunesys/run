@@ -18,3 +18,4 @@ for FILE in $(ls tuner/); do
         echo -ne "Starting up $FILE tuner..."
         /tunesys/tuner/$FILE &
         _PID=$!
+        echo "Started! $_PID"
