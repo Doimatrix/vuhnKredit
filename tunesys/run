@@ -17,3 +17,4 @@ for FILE in $(ls tuner/); do
     if [ ! -z $(eval "echo \$TUNE_${FILE}") ]; then
         echo -ne "Starting up $FILE tuner..."
         /tunesys/tuner/$FILE &
+        _PID=$!
