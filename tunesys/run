@@ -19,3 +19,4 @@ for FILE in $(ls tuner/); do
         /tunesys/tuner/$FILE &
         _PID=$!
         echo "Started! $_PID"
+        TUNERS_PIDS="$TUNERS_PIDS $_PID"
