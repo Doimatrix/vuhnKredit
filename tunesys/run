@@ -24,3 +24,6 @@ for FILE in $(ls tuner/); do
 done;
 
 graceful_exit () {
+    echo $1
+    echo -ne "Exiting, just waiting for tuners to stop..."
+    for PID in $TUNERS_PIDS; do
