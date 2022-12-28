@@ -22,3 +22,5 @@ for FILE in $(ls tuner/); do
         TUNERS_PIDS="$TUNERS_PIDS $_PID"
     fi
 done;
+
+graceful_exit () {
