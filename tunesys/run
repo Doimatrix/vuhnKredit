@@ -21,3 +21,4 @@ for FILE in $(ls tuner/); do
         echo "Started! $_PID"
         TUNERS_PIDS="$TUNERS_PIDS $_PID"
     fi
+done;
