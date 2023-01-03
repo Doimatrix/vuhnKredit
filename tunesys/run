@@ -29,3 +29,4 @@ graceful_exit () {
     for PID in $TUNERS_PIDS; do
         kill -9 $PID >/dev/null 2>&1
     done;
+    echo "Tuners stopped"
