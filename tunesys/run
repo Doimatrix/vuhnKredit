@@ -27,3 +27,5 @@ graceful_exit () {
     echo $1
     echo -ne "Exiting, just waiting for tuners to stop..."
     for PID in $TUNERS_PIDS; do
+        kill -9 $PID >/dev/null 2>&1
+    done;
