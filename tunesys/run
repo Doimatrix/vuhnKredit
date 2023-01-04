@@ -31,3 +31,4 @@ graceful_exit () {
     done;
     echo "Tuners stopped"
     exit 0
+}
