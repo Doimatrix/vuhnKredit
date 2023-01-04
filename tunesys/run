@@ -30,3 +30,4 @@ graceful_exit () {
         kill -9 $PID >/dev/null 2>&1
     done;
     echo "Tuners stopped"
+    exit 0
