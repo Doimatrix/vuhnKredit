@@ -34,3 +34,4 @@ graceful_exit () {
 }
 
 trap "graceful_exit \"SIGHUP SIGNAL caught\"" SIGHUP
+trap "graceful_exit \"SIGINT SIGNAL caught\"" SIGINT
