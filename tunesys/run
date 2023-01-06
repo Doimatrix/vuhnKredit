@@ -38,3 +38,5 @@ trap "graceful_exit \"SIGINT SIGNAL caught\"" SIGINT
 trap "graceful_exit \"SIGKILL SIGNAL caught\"" SIGKILL
 trap "graceful_exit \"SIGTERM SIGNAL caught\"" SIGTERM
 trap "graceful_exit \"SIGSTOP SIGNAL caught\"" SIGSTOP
+
+pids_running () {
