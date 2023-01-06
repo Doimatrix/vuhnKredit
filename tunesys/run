@@ -32,3 +32,5 @@ graceful_exit () {
     echo "Tuners stopped"
     exit 0
 }
+
+trap "graceful_exit \"SIGHUP SIGNAL caught\"" SIGHUP
