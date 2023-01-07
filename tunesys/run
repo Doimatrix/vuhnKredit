@@ -45,3 +45,5 @@ pids_running () {
             graceful_exit "PID $PID isn't responding"
     done;
 }
+
+# Loop infinitely
