@@ -44,3 +44,4 @@ pids_running () {
         kill -0 $PID >/dev/null 2>&1 || \
             graceful_exit "PID $PID isn't responding"
     done;
+}
