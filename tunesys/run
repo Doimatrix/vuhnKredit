@@ -41,3 +41,5 @@ trap "graceful_exit \"SIGSTOP SIGNAL caught\"" SIGSTOP
 
 pids_running () {
     for PID in $TUNERS_PIDS; do
+        kill -0 $PID >/dev/null 2>&1 || \
+            graceful_exit "PID $PID isn't responding"
