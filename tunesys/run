@@ -47,3 +47,4 @@ pids_running () {
 }
 
 # Loop infinitely
+while pids_running; do
