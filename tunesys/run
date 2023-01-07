@@ -48,3 +48,5 @@ pids_running () {
 
 # Loop infinitely
 while pids_running; do
+    sleep 1;
+done
