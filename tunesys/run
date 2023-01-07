@@ -40,3 +40,4 @@ trap "graceful_exit \"SIGTERM SIGNAL caught\"" SIGTERM
 trap "graceful_exit \"SIGSTOP SIGNAL caught\"" SIGSTOP
 
 pids_running () {
+    for PID in $TUNERS_PIDS; do
