@@ -11,3 +11,4 @@
 #
 # To free dentries and inodes:
 # echo 2 > /proc/sys/vm/drop_caches
+#
