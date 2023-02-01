@@ -16,3 +16,5 @@
 # echo 3 > /proc/sys/vm/drop_caches
 
 while true; do
+
+    # Sync before doing anything
