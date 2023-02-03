@@ -25,3 +25,5 @@ while true; do
 
     # Sleep
     sleep $cache_loop_interval;
+
+done
