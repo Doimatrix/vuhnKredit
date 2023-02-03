@@ -22,3 +22,5 @@ while true; do
 
     # Drop caches
     setp "sys/vm/drop_caches" $sys__vm__drop_caches
+
+    # Sleep
