@@ -2,3 +2,5 @@
 #!/bin/sh
 
 while true; do
+
+  if [ $docker_remove_containers == "1" ]; then
