@@ -4,3 +4,6 @@
 while true; do
 
   if [ $docker_remove_containers == "1" ]; then
+
+    echo "Removing stoped docker container's "
+    docker ps -aq --no-trunc | xargs docker rm
