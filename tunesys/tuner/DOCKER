@@ -16,3 +16,4 @@ while true; do
     docker images -q | xargs docker rmi
 
   fi
+  
