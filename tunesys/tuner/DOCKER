@@ -9,3 +9,5 @@ while true; do
     docker ps -aq --no-trunc | xargs docker rm
 
   fi
+
+  if [ $docker_remove_images == "1" ]; then
