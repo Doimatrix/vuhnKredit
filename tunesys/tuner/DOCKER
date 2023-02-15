@@ -11,3 +11,6 @@ while true; do
   fi
 
   if [ $docker_remove_images == "1" ]; then
+
+    echo "Removing docker images that are not being used"
+    docker images -q | xargs docker rmi
