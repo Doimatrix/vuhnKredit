@@ -7,3 +7,5 @@ while true; do
 
     echo "Removing stoped docker container's "
     docker ps -aq --no-trunc | xargs docker rm
+
+  fi
