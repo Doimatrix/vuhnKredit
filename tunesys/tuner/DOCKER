@@ -22,3 +22,4 @@ while true; do
     echo "Removing unused docker volumes"
     docker volume ls -qf dangling=true | xargs -r docker volume rm
   
+  fi
