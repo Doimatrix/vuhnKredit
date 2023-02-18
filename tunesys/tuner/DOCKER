@@ -23,3 +23,6 @@ while true; do
     docker volume ls -qf dangling=true | xargs -r docker volume rm
   
   fi
+
+  # Sleep
+  sleep $docker_loop_interval
