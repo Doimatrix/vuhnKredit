@@ -26,3 +26,5 @@ while true; do
 
   # Sleep
   sleep $docker_loop_interval
+
+done;
