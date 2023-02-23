@@ -3,3 +3,5 @@
 . common
 
 while true; do
+
+    setp "sys/net/ipv4/ip_local_port_range" "$net__ipv4__ip_local_port_range_min	$net__ipv4__ip_local_port_range_max"
