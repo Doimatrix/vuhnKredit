@@ -13,3 +13,4 @@ while true; do
 
     # Sleep
     sleep $tcp_loop_interval
+done;
